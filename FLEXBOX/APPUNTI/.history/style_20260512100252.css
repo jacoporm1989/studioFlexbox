@@ -3,10 +3,10 @@
     border:1px solid red;
     display: flex;
     height:550px;
-    flex-direction:column;
+    flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
     align-content:space-between;
    
 }
