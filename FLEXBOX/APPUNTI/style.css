@@ -1,24 +1,33 @@
-.container{
-    border:1px solid red;
+.container {
+    border: 1px solid red;
     display: flex;
-    height:550px;
-    flex-direction:row;
+    width: 1000px;
+    height: 550px;
+    flex-direction: row;
     justify-content: space-between;
-   
 }
 
-.sidebar{
-    border:1px solid black;
-    background-color:blueviolet;
-    white-space:nowrap;
+.sidebar {
+    border: 1px solid black;
+    background-color: blueviolet;
+    flex-basis:200px;
+    white-space: nowrap;
+}
+
+
+.arsenal {
+    border: 1px solid black;
+    background-color: red;
+    flex-grow:1;
+    flex-basis:350px;
+    margin: 0;
 }
 
 
 
-.arsenal{
-    border:1px solid black;
-    background-color:red;
-    width:600px;
-    margin:0;
-}
+
+
+
+
+
 

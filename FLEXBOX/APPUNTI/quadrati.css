@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 600px;
+}
+
+.a {
+  width: 100px;
+}
+
+.b {
+  width: 100px;
+  flex-grow: 1;
+}
+
+.c {
+  width: 100px;
+}

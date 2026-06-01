@@ -1,0 +1,17 @@
+.container{
+    border:1px solid red;
+    display:flex;
+    height:550px;
+    flex-direction:row;
+}
+
+.sidebar{
+    border:1px solid black;
+    background-color: blueviolet;
+}
+
+.arsenal{
+    border:1px solid black;
+    background-color: red;
+    margin:0;
+}
