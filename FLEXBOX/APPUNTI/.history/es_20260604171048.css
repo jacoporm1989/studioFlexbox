@@ -8,6 +8,7 @@ h1 {
   flex-direction:row;
   justify-content:space-between;
   align-items:center;
+  margin: 0 auto;
   width: 1000px;
   height: 300px;
 }
@@ -21,25 +22,5 @@ h1 {
   height:150px;
   width:150px;
   
-}
-
-.first{
-  background-color:palevioletred;
-  order:15;
-}
-
-.second{
-  background-color:rgb(116, 216, 112);
-  order:5;
-}
-
-.third{
-  background-color:rgb(209, 216, 112);
-  order:-1;
-}
-
-.fourth{
-  background-color:rgb(216, 112, 181);
-  order:-5;
 }
 

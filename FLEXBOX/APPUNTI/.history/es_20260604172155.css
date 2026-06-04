@@ -25,21 +25,19 @@ h1 {
 
 .first{
   background-color:palevioletred;
-  order:15;
 }
 
 .second{
   background-color:rgb(116, 216, 112);
-  order:5;
+  order:1;
 }
 
 .third{
   background-color:rgb(209, 216, 112);
-  order:-1;
+  order:4;
 }
 
 .fourth{
   background-color:rgb(216, 112, 181);
-  order:-5;
 }
 

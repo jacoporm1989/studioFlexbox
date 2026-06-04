@@ -1,0 +1,7 @@
+.item {
+    flex: 1;
+}
+
+.item-special {
+    flex: initial;
+}

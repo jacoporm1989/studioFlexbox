@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    border:1px solid red;
+    width:1000px;
+    height:500px;
+}
+
+
+.item {
+    flex: 1 1 200px;
+    border:1px solid blue;
+    background-color:yellow;
+    color:blue;
+}
+
+
+.item-special{
+    background-color:red;
+}
+
+

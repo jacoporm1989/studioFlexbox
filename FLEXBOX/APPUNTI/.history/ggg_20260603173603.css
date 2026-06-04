@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    border:1px solid red;
+    width:1000px;
+}
+
+
+.item {
+    flex: 1 1 200px;
+    border:1px solid blue;
+
+}
+
+.item-special {
+    flex: initial;
+}
+
