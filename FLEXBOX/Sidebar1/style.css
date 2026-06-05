@@ -1,0 +1,65 @@
+.container{
+    border:1px solid black;
+    display:flex;
+    flex-direction:row;
+    width:2000px;
+    margin:auto;
+}
+
+header{
+     border:1px solid black;
+    display:flex;
+    width:100%;
+}
+
+.navbar{
+    display:flex;
+    border:1px solid black;
+    height:150px;
+    width:100%;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.section1{
+    margin:20px;
+    font-size:80px;
+    
+}
+
+.section2{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    font-size:30px;
+    
+
+}
+
+.section2 span:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:blue;
+    text-decoration-color:blue ;
+}
+
+.section3{
+    display:flex;
+    justify-content: flex-end;
+    margin:20px;
+    width:200px;
+
+  
+}
+
+.section3 button{
+    font-size:30px;
+    white-space:nowrap;
+}
+
+.section3 button:hover{
+    background-color: blue;
+    color:white;
+    cursor:pointer;
+}
