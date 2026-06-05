@@ -10,7 +10,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     background-color: yellow;
     font-size: 30px;
 
@@ -33,7 +33,7 @@ nav {
     justify-content: space-between;
     gap: 70px;
     margin-top: 35px;
-    margin-right: 110px;
+    margin-right: 170px;
     font-size:20px;
     font-weight:bold;
 
@@ -52,20 +52,17 @@ nav {
 }
 
 .pulsanti{
+    font-size:50px;
     margin-top:5px;
-    margin-top:20px;
     
 }
 
 .pulsanti button{
-    
-    font-size:18px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top:10px;
     padding-bottom:10px;
-    font-weight:bold;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: transparent;
 }
 
