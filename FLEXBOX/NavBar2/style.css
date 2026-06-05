@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    width: 85%;
+    margin: auto;
+}
+
+header {}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 0px;
+    background-color: yellow;
+    font-size: 30px;
+
+
+}
+
+
+.logo p {
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 30px;
+    margin-right: 170px;
+}
+
+.menu span {
+    cursor: pointer;
+
+}
+
+.menu span:hover {
+    color: blue;
+    text-decoration: underline;
+    color: blue;
+    text-decoration-color: blue;
+}
+
+.pulsanti{
+    font-size:50px;
+}
