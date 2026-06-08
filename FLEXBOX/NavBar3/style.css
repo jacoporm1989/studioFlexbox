@@ -1,0 +1,54 @@
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: blue;
+
+  
+}
+
+.sottomenu-guten-tag{
+    display:none;
+}
+
+.guten-tag:hover .sottomenu-guten-tag{
+    display:flex;
+    flex-direction:column;
+    margin-top:15px;
+}
+
+
+.sottomenu-hello{
+    display:none;
+}
+
+
+
+
+
