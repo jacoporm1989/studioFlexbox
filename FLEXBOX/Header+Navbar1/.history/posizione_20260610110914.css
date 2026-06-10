@@ -1,0 +1,10 @@
+.padre {
+    position: relative;
+}
+
+.figlio {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+}

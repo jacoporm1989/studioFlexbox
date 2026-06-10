@@ -1,0 +1,9 @@
+.lingue {
+    position: relative;
+}
+
+.sub-lingue {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

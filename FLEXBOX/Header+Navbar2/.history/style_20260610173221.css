@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+.container{
+    border:1px solid black;
+    width:80%;
+    margin:auto;
+}
+
+
+.up-del-sito{
+    border:1px solid black;
+    height:60px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+   
+
+}
+
+.fa-angle-up{
+    display:none;
+}
+
+.primo-menu:hover li:nth-child(2) .fa-angle-down{
+    display:none;
+}
+
+.primo-menu:hover li:nth-child(2) .fa-angle-up{
+    display:inline;
+}
+
+
+.primo-menu{
+    display:flex;
+    gap:5px;
+    list-style: none;
+
+}
+
+.primo-sottomenu{
+    display:inline;
+}
