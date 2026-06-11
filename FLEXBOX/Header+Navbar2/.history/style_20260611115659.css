@@ -67,16 +67,6 @@ a:hover {
     overflow: hidden;
 }
 
-.primo-sottomenu li {
-    padding: 12px 20px;
-    transition: .2s;
-}
-
-.primo-sottomenu li:hover {
-    background: #f5f5f5;
-    cursor: pointer;
-}
-
 
 .primo-menu li:nth-child(2):hover .primo-sottomenu {
     display: flex;
@@ -139,38 +129,4 @@ a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-}
-
-nav{
-    display:flex;
-    flex-direction:row;
-     justify-content:space-between;
-     align-items:center;
-     padding-left:20px;
-     padding-right:20px;
-    border:1px solid black;
-    height:100px;
-}
-
-nav ul{
-    display:flex;
-    padding:0;
-    list-style: none;
-    gap:20px;
-}
-
-.first-menu li:nth-child(2){
-    margin-top:30px;
-}
-
-.second-menu li:first-child:hover .fa-angle-down{
-    display:none;
-
-
-}
-
-.second-menu li:first-child:hover .fa-angle-up{
-    display:inline;
-
-
 }

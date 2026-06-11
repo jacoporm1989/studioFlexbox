@@ -144,33 +144,14 @@ a:hover {
 nav{
     display:flex;
     flex-direction:row;
-     justify-content:space-between;
-     align-items:center;
-     padding-left:20px;
-     padding-right:20px;
     border:1px solid black;
     height:100px;
 }
 
 nav ul{
     display:flex;
-    padding:0;
-    list-style: none;
-    gap:20px;
-}
-
-.first-menu li:nth-child(2){
-    margin-top:30px;
-}
-
-.second-menu li:first-child:hover .fa-angle-down{
-    display:none;
-
+    justify-content:space-between;
+    align-items:center;
 
 }
 
-.second-menu li:first-child:hover .fa-angle-up{
-    display:inline;
-
-
-}
