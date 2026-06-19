@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+header {
+
+padding:10px;
+
+}
+
+.up-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.lato-dx .language ul,
+.lato-dx .valuta ul {
+    display: none;
+
+}
+
+.lato-dx .language,
+.lato-dx .valuta {
+    position: relative;
+
+}
+
+
+.lato-dx .language:hover ul,
+.lato-dx .valuta:hover ul {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:15px;
+}
+
+.lato-dx .language ul,
+.lato-dx .valuta ul {
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;;
+}
+
+
+
+
+.lato-sx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx li:first-child:hover .fa-angle-down {
+    display: none;
+}
+
+.lato-dx li:first-child:hover .fa-angle-up {
+    display: inline !important;
+}
+
+.lato-dx li:last-child:hover .fa-angle-down {
+    display: none;
+}
+
+.lato-dx li:last-child:hover .fa-angle-up {
+    display: inline !important;
+}
+
+.fa-angle-up {
+    display: none !important;
+}
+
+.lato-destro .language,
+.lato.destro .valuta {
+    position: relative;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav .menu-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}

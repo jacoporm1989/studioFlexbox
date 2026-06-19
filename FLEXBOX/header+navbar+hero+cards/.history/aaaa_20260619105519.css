@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    border:1px solid black;
+    width:85%;
+    margin:auto;
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+header {
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.up-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content:space-between;
+}
+
+.lato-sx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx li:first-child:hover .fa-angle-down{
+    display:none;
+}
+
+.lato-dx li:first-child:hover .fa-angle-up{
+    display:inline !important;
+}
+
+.lato-dx li:last-child:hover .fa-angle-down{
+    display:none;
+}
+
+.lato-dx li:last-child:hover .fa-angle-up{
+    display:inline !important;
+}
+
+.fa-angle-up{
+    display:none !important;
+}
+
+.lato-destro .language, .lato.destro .valuta{
+    position: relative;
+}
+
+.lato-destro .language ul,.lato-destro .valuta ul{
+    display:none;
+    position:absolute;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+.up-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+    border:1px solid red;
+    padding:20px;
+}
+
+.lato-dx .language ul,
+.lato-dx .valuta ul {
+    display: none;
+
+}
+
+.lato-dx .language,
+.lato-dx .valuta {
+    position: relative;
+
+}
+
+
+.lato-dx .language:hover ul,
+.lato-dx .valuta:hover ul {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:15px;
+}
+
+.lato-dx .language ul,
+.lato-dx .valuta ul {
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;;
+}
+
+
+
+
+.lato-sx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx li:first-child:hover .fa-angle-down {
+    display: none;
+}
+
+.lato-dx li:first-child:hover .fa-angle-up {
+    display: inline !important;
+}
+
+.lato-dx li:last-child:hover .fa-angle-down {
+    display: none;
+}
+
+.lato-dx li:last-child:hover .fa-angle-up {
+    display: inline !important;
+}
+
+.fa-angle-up {
+    display: none !important;
+}
+
+.lato-destro .language,
+.lato.destro .valuta {
+    position: relative;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    border:1px solid red;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+}
+nav .menu-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+
+.menu-nav > li > ul{
+    display:flex;
+    gap:20px;
+
+}
+
+.menu-nav .first-li ul > li:hover a,.menu-nav .second-li ul > li:hover a,.menu-nav .third-li ul > li:hover{
+    border-bottom:1px solid black;
+
+}
+.menu-shop{
+    position:relative;
+
+}
+
+.shop-sottomenu{
+    border:1px solid black;
+    background-color: white;
+}
+
+.second-li ul .menu-shop .shop-sottomenu{
+    display:none;
+}
+
+.second-li ul .menu-shop:hover .shop-sottomenu{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+
+}
+
+
+
+.menu-shop:hover .fa-angle-down{
+    display:none;
+}
+
+
+.menu-shop:hover .fa-angle-up{
+    display:inline !important;
+}
+
+.prodotti{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding:20px;
+}
+
+.prodotti .abbigliamento, .prodotti .scarpe, .prodotti .accessori{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+
+.prodotti .abbigliamento ul, .prodotti .scarpe ul, .prodotti .accessori ul{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.vedi-tutto{
+    margin-top:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-top:1px solid black;
+    text-align:center;
+}
+
+.zero{
+    position: relative;
+    display: inline-block;
+}
+
+.zero-span{
+    position: absolute;
+    top: -4px;
+    right: -6px;
+
+    width: 12px;
+    height: 12px;
+
+    background: #000;
+    color: #fff;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.hero{
+    display:flex;
+}

@@ -255,31 +255,14 @@ nav .menu-nav {
     justify-content: center;
     padding-left:150px;
     font-family: arial;
+    font-size:50px;
     gap:20px;
-}
+   
 
-
-.sito-hero .slogan{
-    font-size: 50px;
-}
-
-.sito-hero >p {
-    color:grey;
-    font-size: 17px;
-}
-
-.sito-hero button{
-    background-color: transparent;
-    border:1px solid black;
-    padding-left: 25px;
-    padding-right:25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    cursor:pointer;
 }
 
 .slogan p:first-child{
-    padding-left:22px;
+    padding-left:10px;
 }
 
 
