@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.fa-angle-up{
+    display:none !important;
+}
+
+
+.container {
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.menu-sopra {
+    
+    padding: 25px 40px;
+    background-color:#F5F5DC;
+
+}
+
+.menu-sopra ul, nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.paese:hover .fa-angle-down, .assistenza:hover .fa-angle-down {
+    display:none !important;
+}
+
+.paese:hover .fa-angle-up, .assistenza:hover .fa-angle-up {
+    display:inline !important;
+}
+
+
+.menu-sopra ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+
+nav{
+    border: 1px solid black;
+    padding: 35px 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+
+
+.first-ul, .second-ul, .third-ul{
+    display:flex;
+    gap:20px;
+}
+
+
+
+
+.uomo:hover .fa-angle-down{
+    display:none !important;
+}
+
+.uomo:hover .fa-angle-up{
+    display:inline-block !important;
+}
+
+
+.uomo{
+    position:relative;
+}
+
+.uomo:hover .uomo-submenu{
+    display:block;
+    border:1px solid black;
+    background-color:white;
+    margin-left:40px;
+    padding:28px;
+    position:absolute;
+
+}
+
+.uomo-submenu{
+    display:none;
+    
+}
+
+.uomo-submenu-inner{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+.abbigliamento, .scarpe, .accessori{
+    display:flex;
+    flex-direction:column;
+}
+
+.abbigliamento .items , .scarpe .items, .accessori .items{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    width:176px;
+} 
+
+.abbigliamento .items , .scarpe .items{
+    border-right:0.1px dotted grey;
+}
+
+h4{
+    margin-bottom:20px;
+}
+
+.uomo-submenu > li:first-child{
+    margin-bottom:30px;
+}
+
+.uomo-submenu .footer-uomo{
+    border-top:1px dotted grey;
+    padding-top:20px;
+    text-align:center;
+}
+
+.testo-buttons{
+    display:flex;
+    height:700px;
+    background-image: url("premium_photo-1733306531071-087c077e1502.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+
+.hero-testo,.hero-nothing{
+   
+    border:1px solid black;
+
+}
+
+.hero-testo{
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+.hero-nothing{
+    flex:3;
+}
+
+.hero-words{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:white;
+    gap:35px;
+    width:500px;
+}
+
+
+
+.hero-buttons{
+    display:flex;
+    gap: 40px;
+    width:500px;
+    
+}
+
+.hero-buttons button:hover{
+    cursor:pointer;
+}
+
+.hero-words p{
+    font-size:22px;
+}
+
+.hero-words h1{
+    font-size:45px;
+}
+
+
+.hero-buttons button:first-child{
+    background-color:black;
+   
+}
+
+
+.hero-buttons button:last-child{
+  
+    background-color:transparent;
+}
+
+.hero-buttons button:first-child, .hero-buttons button:last-child{
+    font-weight:bold;
+    color:white;
+    font-size:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.banner{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    right:30px;
+    bottom:30px;
+    padding:35px;
+    background-color:white;
+    
+}
+
+.banner p:last-child{
+    border-top:1px dotted grey;
+    padding-top:20px;
+}

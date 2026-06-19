@@ -1,0 +1,8 @@
+.container{
+    border:1px solid blue;
+    width:80%;
+}
+
+.menu-sopra{
+    display:flex;
+}

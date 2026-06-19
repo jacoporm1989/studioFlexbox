@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+.container{
+    border:1px solid black;
+    width:80%;
+    margin:auto;
+}
+
+
+.up-del-sito{
+    border:1px solid black;
+    height:60px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+
+}
+
+
+ul{
+    display:flex;
+}

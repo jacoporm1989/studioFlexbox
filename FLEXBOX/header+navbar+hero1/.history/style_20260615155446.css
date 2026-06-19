@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    cursor:pointer;
+    color: inherit;
+}
+
+
+.container{
+    border:1px solid blue;
+    width:80%;
+    margin:auto;
+}
+
+
+
+
+.menu-sopra{
+    border: 1px solid black;
+    display:flex;
+    flex-direction:row;
+    padding: 25px 40px;
+    justify-content: space-between;
+}
+
+.menu-sopra  ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+

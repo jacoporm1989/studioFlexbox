@@ -1,0 +1,31 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+
+.container{
+    border:1px solid black;
+    width:80%;
+    margin:auto;
+}
+
+
+.header{
+
+
+
+}
+
+.up-menu{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.lato-dx{
+    display:flex;
+    justify-content:flex-end;
+
+}

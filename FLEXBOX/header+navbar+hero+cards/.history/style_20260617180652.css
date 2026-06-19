@@ -1,0 +1,37 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+
+.container{
+    border:1px solid black;
+    width:80%;
+    margin:auto;
+}
+
+
+.header{
+
+
+
+}
+
+.up-menu{
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+}
+
+.lato-sx{
+    display:flex;
+    justify-content:flex-start;
+
+}
+
+.lato-dx{
+    display:flex;
+    justify-content:flex-end;
+
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+
+header {
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.up-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content:space-between;
+}
+
+.lato-sx {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lato-dx {
+    display: flex;
+    gap: 20px;
+
+}

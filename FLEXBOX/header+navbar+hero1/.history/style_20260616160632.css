@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+/* --- FRECCE --- */
+.fa-angle-up {
+    display: none;
+}
+
+.paese:hover .fa-angle-down,
+.assistenza:hover .fa-angle-down,
+.uomo:hover .fa-angle-down {
+    display: none;
+}
+
+.paese:hover .fa-angle-up,
+.assistenza:hover .fa-angle-up,
+.uomo:hover .fa-angle-up {
+    display: inline;
+}
+
+/* --- CONTAINER --- */
+.container {
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+}
+
+/* --- MENU SOPRA

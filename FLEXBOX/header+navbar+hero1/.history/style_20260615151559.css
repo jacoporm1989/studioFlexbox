@@ -1,0 +1,11 @@
+.container{
+    border:1px solid blue;
+    width:80%;
+}
+
+header .menu-sopra{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,24 @@
+.container{
+    border:1px solid blue;
+    width:80%;
+}
+
+
+
+.menu-sopra{
+    border: 1px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:30px;
+}
+
+.menu-sopra > ul{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+
+.container {
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.menu-sopra {
+    border: 1px solid black;
+    padding: 25px 40px;
+}
+
+.menu-sopra ul, nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-sopra ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.menu-sopra ul li a .fa-angle-up, nav .second-ul .uomo  .fa-angle-up{
+    display: none;
+}
+
+
+.menu-sopra ul li:hover a .fa-angle-up {
+    display: inline;
+
+}
+
+.menu-sopra ul li:hover a .fa-angle-down {
+    display: none;
+
+}
+
+nav{
+    border: 1px solid black;
+    padding: 35px 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+.uomo:hover .fa-angle-down{
+    display:none;
+}
+
+
+.uomo:hover .fa-angle-up{
+    display:inline !important;
+}
+
+.first.ul, .second-ul, .third-ul{
+    display:flex;
+    gap:20px;
+}
+
+.third-ul {
+    position:relative;
+}
+
