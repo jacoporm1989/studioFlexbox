@@ -6,24 +6,30 @@
 
 
 .container{
-    border:1px solid black;
+    
     width:85%;
     margin:auto;
 }
 
-ul{
-    list-style-type: none;
-}
-
-
-nav{
+.contenitore{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    height:500px;
+    border:1px solid black;
 }
 
-nav ul{
-    display:flex;
-    flex-direction:row;
-    gap:25px;
+.div1{
+    background-color: green;
+    width:100px;
 }
+
+.div2{
+    background-color: yellow;
+    width:100px;
+}
+
+.div3{
+    background-color: blue;
+    width:100px;
+}
+
