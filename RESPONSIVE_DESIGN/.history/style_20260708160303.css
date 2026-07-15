@@ -19,7 +19,6 @@ h2{
     background-color:yellow;
 }
 
-
 @media only print {
     h2{
         background-color:deeppink;

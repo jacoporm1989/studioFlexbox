@@ -1,0 +1,14 @@
+h3 {
+    background-color: blue;
+}
+
+@media only screen and (height:400px) {
+    h3 {
+        background-color: fuchsia;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,16 @@
+h3 {
+    background-color: blue;
+}
+
+@media only screen and (orientation:portrait) {
+    h3 {
+        background-color: fuchsia;
+    }
+
+}
+
+
+
+
+
+

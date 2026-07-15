@@ -1,0 +1,30 @@
+h3 {
+    background-color: blue;
+}
+
+@media only screen and (min-height:400px) {
+    h3 {
+        background-color: fuchsia;
+    }
+
+}
+
+@media only screen and (min-height:700px) {
+    h3 {
+        background-color: green;
+    }
+
+}
+
+@media only screen and (min-height:800px) {
+    h3 {
+        background-color: red;
+    }
+
+}
+
+
+
+
+
+

@@ -19,19 +19,10 @@ h2{
     background-color:yellow;
 }
 
-
-@media only print {
-    h2{
-        background-color:deeppink;
-    }
-}
-
 h3{
     background-color:blue;
     display:none;
 }
-
-/*
 
 @media only screen and (min-width:800px){
     h2{
@@ -45,5 +36,8 @@ h3{
     }
 }
 
-*/
-
+@media only print {
+    h2{
+        background-color:deeppink;
+    }
+}
